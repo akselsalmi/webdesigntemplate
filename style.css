@@ -357,3 +357,12 @@ ul#topnav li a.active, ul#topnav li a.active:hover {    background: #eee;  color
 #credits { font-size:80%; text-align:center;}
 }
 
+/*mobile*/
+@media screen and (max-width: 600px) {
+  .navtext {
+    font-size: 20px;
+  }
+}
+html {
+  scrollbar-gutter: stable
+}
